@@ -7,8 +7,8 @@ import collections
 
 from telethon.events.newmessage import NewMessage
 
-API_ID = 6057309
-API_HASH = "e309ebccc3c9c88f7cce34adec0fdbcc"
+API_ID = 
+API_HASH = ""
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
