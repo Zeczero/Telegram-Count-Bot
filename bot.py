@@ -18,35 +18,6 @@ client = TelegramClient('anon', API_ID, API_HASH)
 
 
 @client.on(events.NewMessage)
-async def answer_to_message(event):
-    if '@BlushingGorilla' in event.text:
-        if "Oski" in event.text:
-            await event.reply("DAILY REMINDER ZE NIEJAKI WOJ MA PONAD ĆWIERĆ TYSIĄCA PAR NA TINDERZE (TO TAK JAKBY CAŁE CG GO CHCIALO!!!)")
-        elif "oski" in event.text:
-            await event.reply("DAILY REMINDER ZE NIEJAKI WOJ MA PONAD ĆWIERĆ TYSIĄCA PAR NA TINDERZE (TO TAK JAKBY CAŁE CG GO CHCIALO!!!)")
-    if 'kolya' in event.text:
-        if "Oski" in event.text:
-            await event.reply("DAILY REMINDER ZE NIEJAKI WOJ MA PONAD ĆWIERĆ TYSIĄCA PAR NA TINDERZE (TO TAK JAKBY CAŁE CG GO CHCIALO!!!)")
-        elif "oski" in event.text:
-            await event.reply("DAILY REMINDER ZE NIEJAKI WOJ MA PONAD ĆWIERĆ TYSIĄCA PAR NA TINDERZE (TO TAK JAKBY CAŁE CG GO CHCIALO!!!)")
-    if 'Kolya' in event.text:
-        if "Oski" in event.text:
-            await event.reply("DAILY REMINDER ZE NIEJAKI WOJ MA PONAD ĆWIERĆ TYSIĄCA PAR NA TINDERZE (TO TAK JAKBY CAŁE CG GO CHCIALO!!!)")
-        elif "oski" in event.text:
-            await event.reply("DAILY REMINDER ZE NIEJAKI WOJ MA PONAD ĆWIERĆ TYSIĄCA PAR NA TINDERZE (TO TAK JAKBY CAŁE CG GO CHCIALO!!!)")
-    if 'Zeczero' in event.text:
-        if "Oski" in event.text:
-            await event.reply("DAILY REMINDER ZE NIEJAKI WOJ MA PONAD ĆWIERĆ TYSIĄCA PAR NA TINDERZE (TO TAK JAKBY CAŁE CG GO CHCIALO!!!)")
-        elif "oski" in event.text:
-            await event.reply("DAILY REMINDER ZE NIEJAKI WOJ MA PONAD ĆWIERĆ TYSIĄCA PAR NA TINDERZE (TO TAK JAKBY CAŁE CG GO CHCIALO!!!)")
-    if 'zeczero' in event.text:
-        if "Oski" in event.text:
-            await event.reply("DAILY REMINDER ZE NIEJAKI WOJ MA PONAD ĆWIERĆ TYSIĄCA PAR NA TINDERZE (TO TAK JAKBY CAŁE CG GO CHCIALO!!!)")
-        elif "oski" in event.text:
-            await event.reply("DAILY REMINDER ZE NIEJAKI WOJ MA PONAD ĆWIERĆ TYSIĄCA PAR NA TINDERZE (TO TAK JAKBY CAŁE CG GO CHCIALO!!!)")
-
-
-@client.on(events.NewMessage)
 async def calculate_ranking(event):
     top = Counter()
     phone = Counter()
